@@ -43,7 +43,8 @@ In the project directory, you can `npm run`:
 - `dev`: Starts up a development server with hot module replacement
 - `test`: Runs the test suite
 - `lint`: Runs the [ESLint](https://eslint.org/) linter
-- `build`: Build `react-pretty-email-wrap`, ready for deployment
+- `build:lib`: Build `react-pretty-email-wrap`, ready to be published
+- `build:docs`: Build the documentation
 
 ## Deployment
 

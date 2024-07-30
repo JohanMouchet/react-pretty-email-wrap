@@ -26,7 +26,8 @@
     "dev": "vite",
     "test": "vitest",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "build": "tsc --p ./tsconfig-build.json && vite build",
+    "build:lib": "tsc --p ./tsconfig-build.json && vite build",
+    "build:docs": "vite build --mode documentation",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
