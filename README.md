@@ -6,7 +6,7 @@ _Allow emails to wrap in a human-readable way_
 
 Browsers treat email addresses as single words, which can cause horizontal overflow on mobile devices. This component resolves the issue by allowing email addresses to wrap naturally, breaking the text after special characters like `@` and `.` for better readability.
 
-![An illustration of how react-pretty-email-wrap allows an email to wrap rather than overflow](src/images/demo.gif)
+<img src="src/images/demo.gif" width="326" height="302" alt="An illustration of how react-pretty-email-wrap allows an email to wrap rather than overflow">
 
 ## Install
 
