@@ -2,7 +2,7 @@ import "@testing-library/jest-dom/vitest";
 import { render, screen } from "@testing-library/react";
 import React from "react";
 import { describe, expect, it } from "vitest";
-import { PrettyEmailWrap } from "./main.js";
+import { PrettyEmailWrap } from "../lib/main";
 
 describe("PrettyEmailWrap", () => {
   it('insert a Word Break Opportunity tag before the "@" character', () => {
