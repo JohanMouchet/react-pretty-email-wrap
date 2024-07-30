@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
       plugins: [react()],
       build: {
         outDir: "docs",
+        base: "/react-pretty-email-wrap/",
       },
     };
   }
