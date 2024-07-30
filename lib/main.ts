@@ -1,1 +1,0 @@
-export { PrettyEmailWrap } from "./PrettyEmailWrap";

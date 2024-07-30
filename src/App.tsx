@@ -1,4 +1,4 @@
-import { PrettyEmailWrap } from "../lib/main.ts";
+import { PrettyEmailWrap } from "../lib/main";
 import styles from "./App.module.css";
 import { UserProfile } from "./components/UserProfile/UserProfile.tsx";
 import pictureSrc from "./images/profile-picture.png";
