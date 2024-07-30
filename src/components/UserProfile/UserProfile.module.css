@@ -1,0 +1,23 @@
+.userProfile {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 16px;
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 40px;
+}
+
+.picture {
+  border-radius: 50%;
+}
+
+.name {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.email {
+  font-size: 14px;
+  line-height: 1;
+  color: #9ca3af;
+}

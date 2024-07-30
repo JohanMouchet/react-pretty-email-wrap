@@ -1,0 +1,55 @@
+{
+  "name": "react-pretty-email-wrap",
+  "description": "Allow emails to wrap in a human-readable way",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": "Johan Mouchet <mouchet-johan@gmail.com> (https://johan-mouchet.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohanMouchet/react-pretty-email-wrap.git"
+  },
+  "keywords": [
+    "email wrap",
+    "email overflow",
+    "email break",
+    "pretty email",
+    "react pretty email wrap"
+  ],
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build": "tsc --p ./tsconfig-build.json && vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "jsdom": "^24.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-dts": "4.0.0-beta.1",
+    "vitest": "^2.0.4"
+  }
+}

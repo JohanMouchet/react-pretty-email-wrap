@@ -1,0 +1,50 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #111827;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  background: #e5e7eb;
+  border-radius: 0.3em;
+  font-size: 0.875em;
+  font-weight: normal;
+  font-family: monospace;
+  color: #4b5563;
+}
+
+.container {
+  width: 280px;
+  max-width: 372px;
+  resize: horizontal;
+  overflow-x: scroll;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.h3 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
