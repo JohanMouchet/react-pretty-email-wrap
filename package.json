@@ -2,7 +2,7 @@
   "name": "react-pretty-email-wrap",
   "description": "Allow emails to wrap in a human-readable way",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Johan Mouchet <mouchet-johan@gmail.com> (https://johan-mouchet.com)",
   "repository": {
     "type": "git",
