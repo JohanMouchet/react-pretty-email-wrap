@@ -1,5 +1,11 @@
 # react-pretty-email-wrap
 
+## 0.1.3
+
+### Patch Changes
+
+- 0efbf5e: publish package
+
 ## 0.1.2
 
 ### Patch Changes
