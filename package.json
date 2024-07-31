@@ -31,6 +31,7 @@
     "lint:docs": "eslint src",
     "tsc:docs": "tsc --p ./tsconfig.app.json",
     "build:docs": "vite build --mode documentation",
+    "publish": "changeset publish",
     "prepublishOnly": "npm run build:lib"
   },
   "peerDependencies": {
