@@ -41,6 +41,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Lint
+        run: pnpm run lint:docs
+
+      - name: Typecheck
+        run: pnpm run tsc:docs
+
       - name: Build
         run: pnpm run build:docs
 

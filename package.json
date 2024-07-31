@@ -25,10 +25,13 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "build:lib": "tsc --p ./tsconfig-build.json && vite build",
+    "lint:lib": "eslint lib",
+    "tsc:lib": "tsc --p ./tsconfig-build.json",
+    "build:lib": "vite build",
+    "lint:docs": "eslint src",
+    "tsc:docs": "tsc --p ./tsconfig.app.json",
     "build:docs": "vite build --mode documentation",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build:lib"
   },
   "peerDependencies": {
     "react": "^18.3.1",
