@@ -38,6 +38,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
