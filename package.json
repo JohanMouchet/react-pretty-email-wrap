@@ -27,7 +27,7 @@
     "test": "vitest",
     "lint:lib": "eslint lib",
     "tsc:lib": "tsc --p ./tsconfig-build.json",
-    "build:lib": "vite build",
+    "build:lib": "tsc --p ./tsconfig-build.json --outDir types && vite build",
     "lint:docs": "eslint src",
     "tsc:docs": "tsc --p ./tsconfig.app.json",
     "build:docs": "vite build --mode documentation",
