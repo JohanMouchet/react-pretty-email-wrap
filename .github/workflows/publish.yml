@@ -38,7 +38,10 @@ jobs:
         run: pnpm run test
 
       - name: Create release PR or publish
-        id: changeset
+        id: changesets
         uses: changesets/action@v1
         with:
           publish: pnpm run build:lib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
